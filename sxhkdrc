@@ -1,0 +1,14 @@
+super + w
+	$BROWSER
+
+super + s 	
+	flameshot gui
+
+super + shift + i
+	pamixer -i 5
+super + shift + d
+	pamixer -d 5	
+
+super + x
+	./.bin/system-status-dmenu.sh
+
